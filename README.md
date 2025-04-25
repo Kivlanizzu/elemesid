@@ -1,6 +1,6 @@
-# 🥗 Good Food Us
+# 🥗 elemes.id
 
-**Good Food Us** adalah landing page modern dengan tema makanan sehat. Dibangun menggunakan **React** dan **Tailwind CSS**, aplikasi ini dirancang responsif dan cocok untuk brand makanan sehat, campaign nutrisi, atau startup di bidang kuliner sehat.
+**elemes.id** adalah landing page modern dengan tema makanan sehat. Dibangun menggunakan **React** dan **Tailwind CSS**, aplikasi ini dirancang responsif dan cocok untuk brand makanan sehat, campaign nutrisi, atau startup di bidang kuliner sehat.
 
 🌐 [Lihat Live Demo](https://elemes-gxbd2hq8u-kivlanizzus-projects.vercel.app/)
 
