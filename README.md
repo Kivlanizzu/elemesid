@@ -19,19 +19,24 @@
    cd good-food-us
 
 2. Install dependencies:
-npm install
+    ```bash
+    npm install
 
 3. Jalankan secara lokal:
-npm run dev
+    ```bash
+    npm run dev
 
-☁️ Deploy ke Vercel
+## ☁️ Deploy ke Vercel
 
 1. Login ke Vercel:
-npm install -g vercel
-vercel login
+    ```bash
+    npm install -g vercel
+    vercel login
 
 2. Inisialisasi project dan deploy:
-vercel
+    ```bash
+    vercel
 
 3. Untuk deploy selanjutnya (production):
-vercel --prod
+    ```bash
+    vercel --prod
