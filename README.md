@@ -1,35 +1,37 @@
-🥗 Good Food Us – Web App
-Sebuah aplikasi landing page dengan tema makanan sehat yang dibuat menggunakan React + Tailwind CSS.
+# 🥗 Good Food Us
 
-🚀 Fitur
-Responsive layout
+**Good Food Us** adalah landing page modern dengan tema makanan sehat. Dibangun menggunakan **React** dan **Tailwind CSS**, aplikasi ini dirancang responsif dan cocok untuk brand makanan sehat, campaign nutrisi, atau startup di bidang kuliner sehat.
 
-Styling dengan Tailwind CSS
+🌐 [Lihat Live Demo](https://elemes-gxbd2hq8u-kivlanizzus-projects.vercel.app/)
 
-📦 Cara Instalasi
+## 🚀 Fitur
+
+- 🔥 Responsive Design — Tampilan optimal di semua ukuran layar  
+- 🎨 Tailwind CSS — Styling cepat dan efisien  
+- ⚛️ React — Struktur komponen yang modular  
+- 📱 UI Modern — Tampilan bersih dan user-friendly
+
+## 📦 Cara Instalasi (Local Development)
 
 1. Clone repository:
-git clone https://github.com/Kivlanizzu/template_frontend.git
-cd good-food-us
+   ```bash
+   git clone https://github.com/Kivlanizzu/template_frontend.git
+   cd good-food-us
 
 2. Install dependencies:
 npm install
 
-3. Jalankan program secara lokal:
+3. Jalankan secara lokal:
 npm run dev
 
-☁️ Deploy ke Heroku
-Pastikan kamu sudah install Heroku CLI
+☁️ Deploy ke Vercel
 
-1. Login ke Heroku:
-heroku login
+1. Login ke Vercel:
+npm install -g vercel
+vercel login
 
-2. Inisialisasi Git (jika belum):
-git init
-heroku git:remote -a nama-aplikasi-heroku
+2. Inisialisasi project dan deploy:
+vercel
 
-3. Build dan push ke Heroku:
-npm run build
-git add .
-git commit -m "Deploy to Heroku"
-git push heroku main
+3. Untuk deploy selanjutnya (production):
+vercel --prod
